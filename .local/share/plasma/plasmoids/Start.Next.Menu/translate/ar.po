@@ -1,0 +1,147 @@
+# Translation of Start.Next.Menu into Arabic
+# Copyright (C) 2023
+# This file is distributed under the same license as the Start.Next.Menu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Start.Next.Menu\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2179317\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Arabic <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../metadata.desktop
+msgid "A configurable launcher menu"
+msgstr "قائمة تشغيل قابلة للتخصيص"
+
+#: ../contents/code/tools.js
+msgid "Remove from Favorites"
+msgstr "إزالة من المفضلة"
+
+#: ../contents/code/tools.js
+msgid "Add to Favorites"
+msgstr "إضافة إلى المفضلة"
+
+#: ../contents/code/tools.js
+msgid "On All Activities"
+msgstr "في جميع الأنشطة"
+
+#: ../contents/code/tools.js
+msgid "On The Current Activity"
+msgstr "في النشاط الحالي"
+
+#: ../contents/code/tools.js
+msgid "Show In Favorites"
+msgstr "إظهار في المفضلة"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "عام"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Icon:"
+msgstr "الأيقونة:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "اختر..."
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "إزالة الأيقونة"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show favorites first"
+msgstr "إظهار المفضلة أولاً"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Menu position"
+msgstr "موضع القائمة"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Default"
+msgstr "افتراضي"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center"
+msgstr "الوسط"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center bottom"
+msgstr "أسفل الوسط"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show labels in two lines"
+msgstr "عرض التسميات في سطرين"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of columns"
+msgstr "عدد الأعمدة"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of rows"
+msgstr "عدد الصفوف"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhide all hidden applications"
+msgstr "إظهار جميع التطبيقات المخفية"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhidden!"
+msgstr "تم الإظهار!"
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications..."
+msgstr "تحرير التطبيقات..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "System Preferences"
+msgstr "تفضيلات النظام"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Lock Screen"
+msgstr "قفل الشاشة"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Leave ..."
+msgstr "تسجيل الخروج..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Hi, "
+msgstr "مرحبًا، "
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Type here to search ..."
+msgstr "اكتب هنا للبحث..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid " Favorites"
+msgstr " المفضلة"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid " All apps"
+msgstr " جميع التطبيقات"
+
+#: ../contents/ui/MainModel.qml
+msgid "Processor"
+msgstr "المعالج"
+
+#: ../contents/ui/SoInfo.qml
+msgid "More info..."
+msgstr "مزيد من المعلومات..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "About"
+msgstr "حول"

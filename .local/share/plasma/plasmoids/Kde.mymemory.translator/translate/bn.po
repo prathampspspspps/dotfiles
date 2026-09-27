@@ -1,0 +1,127 @@
+# Translation of Kde.mymemory.translator in Bengali
+# Copyright (C) 2023
+# This file is distributed under the same license as the Kde.mymemory.translator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kde.mymemory.translator\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2272210/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Bengali <LL@li.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "English"
+msgstr "ইংরেজি"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Spanish"
+msgstr "স্প্যানিশ"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Chinese (Mandarin)"
+msgstr "চীনা (ম্যান্ডারিন)"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Portuguese"
+msgstr "পর্তুগিজ"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Russian"
+msgstr "রাশিয়ান"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Hindi"
+msgstr "হিন্দি"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "German"
+msgstr "জার্মান"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Dutch"
+msgstr "ডাচ"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Japanese"
+msgstr "জাপানি"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "French"
+msgstr "ফরাসি"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Italian"
+msgstr "ইতালিয়ান"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Korean"
+msgstr "কোরিয়ান"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Arabic"
+msgstr "আরবি"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Turkish"
+msgstr "তুর্কি"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Polish"
+msgstr "পোলিশ"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Swedish"
+msgstr "সুইডিশ"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Danish"
+msgstr "ড্যানিশ"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Norwegian"
+msgstr "নরওয়েজিয়ান"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Finnish"
+msgstr "ফিনিশ"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Greek"
+msgstr "গ্রিক"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Czech"
+msgstr "চেক"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Hungarian"
+msgstr "হাঙ্গেরিয়ান"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Romanian"
+msgstr "রোমানিয়ান"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Bulgarian"
+msgstr "বুলগেরিয়ান"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Indonesian"
+msgstr "ইন্দোনেশিয়ান"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Vietnamese"
+msgstr "ভিয়েতনামি"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Enter the text you wish to translate"
+msgstr "আপনি যে পাঠ্য অনুবাদ করতে চান তা লিখুন"

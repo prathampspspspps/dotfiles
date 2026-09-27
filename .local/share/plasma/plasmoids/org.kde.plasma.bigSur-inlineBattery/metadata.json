@@ -1,0 +1,30 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "me@kelvinzhang.ca",
+                "Name": "Kelvin Zhang. Modified by F.Korpsvrat"
+            },
+            {
+                "Email": "yohanesoktayt72@gmail.com",
+                "Name": "Yohanes Oktanio. Modified & Maintained For Kde 6"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "mcOS BS Inline Battery",
+        "Icon": "battery",
+        "Id": "org.kde.plasma.bigSur-inlineBattery",
+        "License": "GPL-2.0+",
+        "Name": "mcOS BS Inline Battery",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "6.0.0",
+        "Website": "https://kelvinzhang.ca"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-RootPath": "contents"
+}

@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "rang501@gmail.com",
+                "Name": "Mart Rang"
+            }
+        ],
+        "Category": "Multimedia",
+        "Description": "Real-time audio spectrum visualizer for the Plasma panel",
+        "Icon": "wavebar",
+        "Id": "org.kde.plasma.wavebar",
+        "License": "MIT",
+        "Name": "Wavebar",
+        "Version": "1.0.0",
+        "Website": ""
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

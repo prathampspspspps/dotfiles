@@ -1,0 +1,148 @@
+# Translation of Start.Next.Menu in fr
+# Copyright (C) 2025
+# This file is distributed under the same license as the Start.Next.Menu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Start.Next.Menu\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2179317/\n"
+"POT-Creation-Date: 2025-02-12 16:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../metadata.desktop
+msgid "A configurable launcher menu"
+msgstr "Un menu lanceur configurable"
+
+#: ../contents/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Retirer des favoris"
+
+#: ../contents/code/tools.js
+msgid "Add to Favorites"
+msgstr "Ajouter aux favoris"
+
+#: ../contents/code/tools.js
+msgid "On All Activities"
+msgstr "Sur toutes les activités"
+
+#: ../contents/code/tools.js
+msgid "On The Current Activity"
+msgstr "Sur l'activité actuelle"
+
+#: ../contents/code/tools.js
+msgid "Show In Favorites"
+msgstr "Afficher dans les favoris"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "Général"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Icon:"
+msgstr "Icône :"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Choisir..."
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Effacer l'icône"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show favorites first"
+msgstr "Afficher les favoris en premier"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Menu position"
+msgstr "Position du menu"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Default"
+msgstr "Par défaut"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center"
+msgstr "Centre"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Center bottom"
+msgstr "Centre bas"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show labels in two lines"
+msgstr "Afficher les étiquettes sur deux lignes"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of columns"
+msgstr "Nombre de colonnes"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Number of rows"
+msgstr "Nombre de lignes"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhide all hidden applications"
+msgstr "Rendre visibles toutes les applications masquées"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Unhidden!"
+msgstr "Démasquées !"
+
+#: ../contents/ui/main.qml
+msgid "Edit Applications..."
+msgstr "Modifier les applications..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "System Preferences"
+msgstr "Préférences système"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Lock Screen"
+msgstr "Verrouiller l'écran"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Leave ..."
+msgstr "Quitter..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Hi, "
+msgstr "Bonjour, "
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Type here to search ..."
+msgstr "Tapez ici pour rechercher..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid " Favorites"
+msgstr " Favoris"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid " All apps"
+msgstr " Toutes les applications"
+
+#: ../contents/ui/MainModel.qml
+msgid "Processor"
+msgstr "Processeur"
+
+#: ../contents/ui/SoInfo.qml
+msgid "More info..."
+msgstr "Plus d'infos..."
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Home"
+msgstr "Accueil"
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "About"
+msgstr "À propos"

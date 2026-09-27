@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+
+  <entry name="gradientStart" type="color">
+    <default>#1e1e1e</default>
+  </entry>
+
+  <entry name="gradientEnd" type="color">
+    <default>#282a2d</default>
+  </entry>
+  <entry name="elementWidth" type="int">
+    <default>300</default>
+  </entry>
+  <entry name="elementHeight" type="int">
+    <default>300</default>
+  </entry>
+  <entry name="level" type="int">
+    <default>2</default>
+  </entry>
+  <entry name="connectionsLevel" type="int">
+    <default>1</default>
+  </entry>
+  <entry name="quarksColor" type="color">
+    <default>#ffffff</default>
+  </entry>
+
+  </group>
+
+</kcfg>

@@ -1,0 +1,174 @@
+# Translation of nori weather in Russian
+# Copyright (C) 2023
+# This file is distributed under the same license as the  Nori.Weather package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nori.Weather\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2230382/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Russian <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Clear"
+msgstr "Ясно"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Mainly clear"
+msgstr "Преимущественно ясно"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Partly cloudy"
+msgstr "Переменная облачность"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Overcast"
+msgstr "Пасмурно"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle light intensity"
+msgstr "Морось слабой интенсивности"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle moderate intensity"
+msgstr "Морось умеренной интенсивности"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle dense intensity"
+msgstr "Морось сильной интенсивности"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle light intensity"
+msgstr "Морось слабой интенсивности с заморозками"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle dense intensity"
+msgstr "Морось сильной интенсивности с заморозками"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain slight intensity"
+msgstr "Слабый дождь"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain moderate intensity"
+msgstr "Умеренный дождь"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain heavy intensity"
+msgstr "Сильный дождь"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain light intensity"
+msgstr "Слабый дождь с заморозками"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain heavy intensity"
+msgstr "Сильный дождь с заморозками"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall slight intensity"
+msgstr "Слабый снегопад"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall moderate intensity"
+msgstr "Умеренный снегопад"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall heavy intensity"
+msgstr "Сильный снегопад"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow grains"
+msgstr "Снежная крупа"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers slight"
+msgstr "Слабые ливни"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers moderate"
+msgstr "Умеренные ливни"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers violent"
+msgstr "Сильные ливни"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers slight"
+msgstr "Слабые снежные ливни"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers heavy"
+msgstr "Сильные снежные ливни"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm"
+msgstr "Гроза"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with slight hail"
+msgstr "Гроза с небольшим градом"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with heavy hail"
+msgstr "Гроза с сильным градом"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Cloudy"
+msgstr "Облачно"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle"
+msgstr "Морось"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain"
+msgstr "Дождь"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow"
+msgstr "Снег"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Showers"
+msgstr "Ливни"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Storm"
+msgstr "Шторм"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Monday"
+msgstr "Понедельник"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Wednesday"
+msgstr "Среда"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Thursday"
+msgstr "Четверг"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Friday"
+msgstr "Пятница"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Saturday"
+msgstr "Суббота"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Sunday"
+msgstr "Воскресенье"

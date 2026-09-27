@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "adolfo@librepixels.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "BugReportUrl": "",
+        "Category": "Environment and Weather",
+        "Description": "",
+        "EnabledByDefault": true,
+        "Icon": "weather",
+        "Id": "Nori.Weather",
+        "License": "GPL-2.0+",
+        "Name": "Nori Weather",
+        "Website": "https://store.kde.org/p/2230382"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

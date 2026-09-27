@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <!-- Category toggles -->
+        <entry name="cpuEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="cpuSubMetrics" type="String">
+            <default>usage,freq,temp</default>
+        </entry>
+        <entry name="cpuVisibility" type="String">
+            <default>both</default>
+        </entry>
+        <entry name="ramEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="ramSubMetrics" type="String">
+            <default>percentage</default>
+        </entry>
+        <!-- Popup-only: force both Percentage and Used/Total to show in the
+             widget window without changing the compact panel's sub-metrics -->
+        <entry name="ramWidgetShowBoth" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="ramVisibility" type="String">
+            <default>both</default>
+        </entry>
+        <entry name="tempEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="tempLabel" type="String">
+            <default>System</default>
+        </entry>
+        <entry name="tempVisibility" type="String">
+            <default>both</default>
+        </entry>
+        <entry name="gpuEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="gpuSubMetrics" type="String">
+            <default>usage,vram,temp</default>
+        </entry>
+        <entry name="gpuVisibility" type="String">
+            <default>both</default>
+        </entry>
+        <entry name="batEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="batSubMetrics" type="String">
+            <default>percentage,power</default>
+        </entry>
+        <entry name="batVisibility" type="String">
+            <default>both</default>
+        </entry>
+        <entry name="netEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="netSubMetrics" type="String">
+            <default>down,up</default>
+        </entry>
+        <entry name="netVisibility" type="String">
+            <default>both</default>
+        </entry>
+        <entry name="diskEnabled" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="diskSubMetrics" type="String">
+            <default>read,write</default>
+        </entry>
+        <entry name="diskVisibility" type="String">
+            <default>both</default>
+        </entry>
+        <entry name="fanEnabled" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="fanVisibility" type="String">
+            <default>both</default>
+        </entry>
+        <entry name="uptimeEnabled" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="uptimeVisibility" type="String">
+            <default>both</default>
+        </entry>
+
+        <!-- Labels -->
+        <entry name="cpuLabel" type="String">
+            <default>CPU</default>
+        </entry>
+        <entry name="ramLabel" type="String">
+            <default>RAM</default>
+        </entry>
+        <entry name="diskLabel" type="String">
+            <default>DSK</default>
+        </entry>
+        <entry name="diskLabels" type="String">
+            <default></default>
+        </entry>
+        <entry name="netLabel" type="String">
+            <default>NET</default>
+        </entry>
+        <entry name="networkInterface" type="String">
+            <default>auto</default>
+        </entry>
+        <entry name="showNetworkIp" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="batteryDevice" type="String">
+            <default>auto</default>
+        </entry>
+        <entry name="gpuSelection" type="String">
+            <default></default>
+        </entry>
+        <entry name="gpuLabels" type="String">
+            <default></default>
+        </entry>
+
+        <!-- Display -->
+        <entry name="displayMode" type="String">
+            <default>text</default>
+        </entry>
+        <entry name="layoutType" type="String">
+            <default>horizontal</default>
+        </entry>
+        <entry name="iconSize" type="Int">
+            <default>12</default>
+        </entry>
+
+        <!-- Icons -->
+        <entry name="cpuIcon" type="String">
+            <default>am-cpu-symbolic</default>
+        </entry>
+        <entry name="ramIcon" type="String">
+            <default>nvidia-ram-symbolic</default>
+        </entry>
+        <entry name="tempIcon" type="String">
+            <default>temperature-normal</default>
+        </entry>
+        <entry name="gpuIcon" type="String">
+            <default>gpu-symbolic</default>
+        </entry>
+        <entry name="batteryIcon" type="String">
+            <default>battery-good</default>
+        </entry>
+        <entry name="powerIcon" type="String">
+            <default>battery-charging-60</default>
+        </entry>
+        <entry name="networkIcon" type="String">
+            <default>network-wireless</default>
+        </entry>
+        <entry name="diskIcon" type="String">
+            <default>am-disk-utility-symbolic</default>
+        </entry>
+        <entry name="fanIcon" type="String">
+            <default>am-fan-symbolic</default>
+        </entry>
+        <entry name="uptimeIcon" type="String">
+            <default>clock</default>
+        </entry>
+
+        <!-- Font -->
+        <entry name="fontFamily" type="String">
+            <default>monospace</default>
+        </entry>
+        <entry name="fontSize" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="fontBold" type="Bool">
+            <default>false</default>
+        </entry>
+
+        <!-- Order -->
+        <entry name="metricOrder" type="String">
+            <default>cpu,ram,temp,gpu,bat,net,disk,fan,uptime</default>
+        </entry>
+
+        <!-- Timing -->
+        <entry name="updateInterval" type="Int">
+            <default>2000</default>
+        </entry>
+
+        <!-- Colors -->
+        <entry name="useCustomColors" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="iconColor" type="String">
+            <default></default>
+        </entry>
+        <entry name="labelColor" type="String">
+            <default></default>
+        </entry>
+        <entry name="fontColor" type="String">
+            <default></default>
+        </entry>
+        <entry name="enableThresholdColors" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="warningColor" type="String">
+            <default>#e5a50a</default>
+        </entry>
+        <entry name="criticalColor" type="String">
+            <default>#da4453</default>
+        </entry>
+        <entry name="cpuWarningThreshold" type="Int">
+            <default>70</default>
+        </entry>
+        <entry name="cpuCriticalThreshold" type="Int">
+            <default>90</default>
+        </entry>
+        <entry name="tempWarningThreshold" type="Int">
+            <default>60</default>
+        </entry>
+        <entry name="tempCriticalThreshold" type="Int">
+            <default>85</default>
+        </entry>
+        <entry name="systemWarningThreshold" type="Int">
+            <default>60</default>
+        </entry>
+        <entry name="systemCriticalThreshold" type="Int">
+            <default>85</default>
+        </entry>
+        <entry name="ramWarningThreshold" type="Int">
+            <default>70</default>
+        </entry>
+        <entry name="ramCriticalThreshold" type="Int">
+            <default>90</default>
+        </entry>
+        <entry name="ramTempWarningThreshold" type="Int">
+            <default>60</default>
+        </entry>
+        <entry name="ramTempCriticalThreshold" type="Int">
+            <default>85</default>
+        </entry>
+        <entry name="gpuWarningThreshold" type="Int">
+            <default>70</default>
+        </entry>
+        <entry name="gpuCriticalThreshold" type="Int">
+            <default>90</default>
+        </entry>
+        <entry name="gpuTempWarningThreshold" type="Int">
+            <default>60</default>
+        </entry>
+        <entry name="gpuTempCriticalThreshold" type="Int">
+            <default>85</default>
+        </entry>
+        <entry name="batteryWarningThreshold" type="Int">
+            <default>30</default>
+        </entry>
+        <entry name="batteryCriticalThreshold" type="Int">
+            <default>15</default>
+        </entry>
+        <entry name="diskTempWarningThreshold" type="Int">
+            <default>45</default>
+        </entry>
+        <entry name="diskTempCriticalThreshold" type="Int">
+            <default>60</default>
+        </entry>
+
+        <!-- Units -->
+        <!-- Hidden: set at runtime when temperature falls back to CPU -->
+        <entry name="_tempFallbackActive" type="Bool">
+            <default>false</default>
+        </entry>
+        <!-- Hidden: set at runtime when a DDR5 RAM temp sensor (SPD5118) is found -->
+        <entry name="_ramTempDetected" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="tempUnit" type="String">
+            <default>C</default>
+        </entry>
+        <entry name="networkUnit" type="String">
+            <default>bytes</default>
+        </entry>
+        <entry name="fanLabel" type="String">
+            <default>FAN</default>
+        </entry>
+        <entry name="fanLabels" type="String">
+            <default></default>
+        </entry>
+        <entry name="fanUnit" type="String">
+            <default>rpm</default>
+        </entry>
+        <entry name="fanMaxRpm" type="Int">
+            <default>2000</default>
+        </entry>
+
+        <!-- Opacity -->
+        <entry name="labelOpacity" type="Double">
+            <default>0.65</default>
+        </entry>
+        <entry name="separatorOpacity" type="Double">
+            <default>0.4</default>
+        </entry>
+    </group>
+</kcfg>

@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "adolfo@librepixels.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "Name": "Bigclock",
+        "Id": "org.kde.Big.Clock",
+        "Description": "A clean and customizable date/time display for your desktop based in job by qewer",
+        "Category": "Utilities",
+        "Icon": "Clock",
+        "EnabledByDefault": true,
+        "License": "GPL-3.0+",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "2.1.5",
+        "Website": "https:/store.kde.org//p/2136288/"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

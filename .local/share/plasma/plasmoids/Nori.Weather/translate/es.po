@@ -1,0 +1,176 @@
+# Translation of  Nori.Weather in LANGUAGE
+# Copyright (C) 2023
+# This file is distributed under the same license as the  Nori.Weather package.
+# zayronxio, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version:  Nori.Weather\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: zayronxio <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Clear"
+msgstr "Despejado"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Mainly clear"
+msgstr "Principalmente despejado"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Partly cloudy"
+msgstr "Parcialmente nublado"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Overcast"
+msgstr "Nublado"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle light intensity"
+msgstr "Llovizna de intensidad ligera"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle moderate intensity"
+msgstr "Llovizna de intensidad moderada"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle dense intensity"
+msgstr "Llovizna de intensidad densa"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle light intensity"
+msgstr "Llovizna helada de intensidad ligera"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle dense intensity"
+msgstr "Llovizna helada de intensidad densa"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain slight intensity"
+msgstr "Lluvia de intensidad ligera"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain moderate intensity"
+msgstr "Lluvia de intensidad moderada"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain heavy intensity"
+msgstr "Lluvia de intensidad fuerte"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain light intensity"
+msgstr "Lluvia helada de intensidad ligera"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain heavy intensity"
+msgstr "Lluvia helada de intensidad fuerte"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall slight intensity"
+msgstr "Nevada de intensidad ligera"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall moderate intensity"
+msgstr "Nevada de intensidad moderada"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall heavy intensity"
+msgstr "Nevada de intensidad fuerte"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow grains"
+msgstr "Granizos de nieve"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers slight"
+msgstr "Chubascos de intensidad ligera"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers moderate"
+msgstr "Chubascos de intensidad moderada"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers violent"
+msgstr "Chubascos de intensidad violenta"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers slight"
+msgstr "Chubascos de nieve ligeros"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers heavy"
+msgstr "Chubascos de nieve fuertes"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm"
+msgstr "Tormenta eléctrica"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with slight hail"
+msgstr "Tormenta eléctrica con granizo ligero"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with heavy hail"
+msgstr "Tormenta eléctrica con granizo fuerte"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Cloudy"
+msgstr "Nublado"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle"
+msgstr "Llovizna"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain"
+msgstr "Lluvia"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow"
+msgstr "Nieve"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Showers"
+msgstr "Chubascos"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Storm"
+msgstr "Tormenta"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Monday"
+msgstr "Lunes"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Tuesday"
+msgstr "Martes"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Thursday"
+msgstr "Jueves"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Friday"
+msgstr "Viernes"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Saturday"
+msgstr "Sábado"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Sunday"
+msgstr "Domingo"
+

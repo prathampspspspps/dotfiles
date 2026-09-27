@@ -1,0 +1,29 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tjaartblig@gmail.com",
+                "Name": "Tjaart Blignaut"
+            }
+        ],
+        "BugReportUrl": "https://gitlab.com/tjaartblig/plasma-pictureframe/-/issues",
+        "Category": "Multimedia",
+        "Description": "(Picture) frame",
+
+        "Icon": "photo",
+        "Id": "com.gitlab.tjaartblig.pictureframe",
+        "License": "GPL-2.0+",
+        "Name": "Picture Frame",
+        "Website": "https://gitlab.com/tjaartblig/plasma-pictureframe"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-DropMimeTypes": [
+        "inode/directory",
+        "image/jpeg",
+        "image/png",
+        "image/svg+xml",
+        "image/svg+xml-compressed",
+        "image/bmp"
+    ]
+}

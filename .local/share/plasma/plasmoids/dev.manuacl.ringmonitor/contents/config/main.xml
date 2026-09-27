@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+
+    <kcfgfile name=""/>
+
+    <group name="Metrics">
+        <entry name="metricOrder" type="String">
+            <label>All metric ids in display order (whether enabled or not)</label>
+            <default>cpu,cpuTemp,ram,swap,gpu,gpuTemp,disk,diskIo,sensorTemp</default>
+        </entry>
+
+        <entry name="enabledMetrics" type="String">
+            <label>Comma-separated list of enabled metric ids (order ignored — see metricOrder)</label>
+            <default>cpu,ram</default>
+        </entry>
+
+        <entry name="sensorTempId" type="String">
+            <label>Sensor ID used by the custom temperature metric (KSystemStats id on Plasma, chip/tempN hwmon id on standalone)</label>
+            <default></default>
+        </entry>
+
+        <entry name="sensorTempLabel" type="String">
+            <label>Short label displayed by the custom temperature metric</label>
+            <default>SENSOR</default>
+        </entry>
+
+        <entry name="sensorTempMinC" type="Int">
+            <label>Temperature in Celsius mapped to an empty custom temperature ring</label>
+            <default>20</default>
+            <min>-50</min>
+            <max>200</max>
+        </entry>
+
+        <entry name="sensorTempMaxC" type="Int">
+            <label>Temperature in Celsius mapped to a full custom temperature ring</label>
+            <default>60</default>
+            <min>-49</min>
+            <max>250</max>
+        </entry>
+
+        <entry name="cpuTempMinC" type="Int">
+            <label>Temperature in Celsius mapped to an empty CPU temperature ring</label>
+            <default>30</default>
+            <min>-50</min>
+            <max>200</max>
+        </entry>
+
+        <entry name="cpuTempMaxC" type="Int">
+            <label>Temperature in Celsius mapped to a full CPU temperature ring</label>
+            <default>90</default>
+            <min>-49</min>
+            <max>250</max>
+        </entry>
+
+        <entry name="gpuTempMinC" type="Int">
+            <label>Temperature in Celsius mapped to an empty GPU temperature ring</label>
+            <default>30</default>
+            <min>-50</min>
+            <max>200</max>
+        </entry>
+
+        <entry name="gpuTempMaxC" type="Int">
+            <label>Temperature in Celsius mapped to a full GPU temperature ring</label>
+            <default>90</default>
+            <min>-49</min>
+            <max>250</max>
+        </entry>
+
+        <entry name="enabledPartitions" type="String">
+            <label>Comma-separated disk partition ids to show as concentric rings inside the disk gauge. Empty = the backend default (the $HOME-bearing filesystem on standalone; the disk/all aggregate on Plasma).</label>
+            <default></default>
+        </entry>
+
+        <entry name="partitionOrder" type="String">
+            <label>All discovered disk partition ids in display order (whether enabled or not). First = outermost ring, last = innermost. Empty = alphabetical by volume label.</label>
+            <default></default>
+        </entry>
+
+        <entry name="partitionOptOut" type="String">
+            <label>Comma-separated disk partition UUIDs the user hid despite being mounted (removable opt-out). Suppresses their auto-shown ring.</label>
+            <default></default>
+        </entry>
+
+        <entry name="partitionLabels" type="String">
+            <label>JSON map of disk partition id to last-known volume label. Caches the friendly name so a disconnected (unplugged) partition can be shown by name in the picker instead of a bare UUID. Bounded to selected/ordered ids.</label>
+            <default></default>
+        </entry>
+
+        <entry name="diskPartitionColors" type="String">
+            <label>JSON map of disk partition id to a custom ring color (#rrggbb). A partition with no entry uses the shared ring color. Empty = no custom colors.</label>
+            <default></default>
+        </entry>
+
+        <entry name="showCpuCores" type="Bool">
+            <label>Show per-core CPU usage as concentric rings inside the CPU ring</label>
+            <default>true</default>
+        </entry>
+
+        <entry name="mergeCpuTemp" type="Bool">
+            <label>Render cpuTemp as the right half of the cpu ring instead of a separate gauge. Requires both cpu and cpuTemp to be enabled.</label>
+            <default>false</default>
+        </entry>
+
+        <entry name="mergeGpuTemp" type="Bool">
+            <label>Render gpuTemp as the right half of the gpu ring instead of a separate gauge. Requires both gpu and gpuTemp to be enabled.</label>
+            <default>false</default>
+        </entry>
+
+        <entry name="splitDiskIo" type="Bool">
+            <label>Render the disk I/O ring split into two half-arcs — read on the left, write on the right — instead of a single combined read+write arc.</label>
+            <default>false</default>
+        </entry>
+    </group>
+
+    <group name="Appearance">
+        <entry name="orientation" type="String">
+            <label>Layout direction: "horizontal" or "vertical"</label>
+            <default>horizontal</default>
+        </entry>
+
+        <entry name="ringSize" type="Int">
+            <label>Per-ring side in pixels. Drives the standalone window's autosize (rings × count + spacings along the stack axis). In the Plasma panel the container may stretch or shrink the widget regardless.</label>
+            <default>180</default>
+            <min>80</min>
+            <max>800</max>
+        </entry>
+
+        <entry name="ringSpacingPercent" type="Int">
+            <label>Spacing between rings as a percentage of ringSize. 7 = the historic 12px default at ringSize=180; 0 = rings touch.</label>
+            <default>7</default>
+            <min>0</min>
+            <max>25</max>
+        </entry>
+
+        <entry name="windowAnchorCorner" type="String">
+            <label>Screen corner the standalone window anchors to: "top-left", "top-right", "bottom-left" or "bottom-right". No effect inside the Plasma panel (the panel container handles its own placement).</label>
+            <default>top-right</default>
+        </entry>
+
+        <entry name="windowMarginX" type="Int">
+            <label>Pixels between the rings and the horizontally-anchored screen edge (left or right, per windowAnchorCorner). Standalone window only.</label>
+            <default>0</default>
+            <min>0</min>
+            <max>200</max>
+        </entry>
+
+        <entry name="windowMarginY" type="Int">
+            <label>Pixels between the rings and the vertically-anchored screen edge (top or bottom, per windowAnchorCorner). Standalone window only.</label>
+            <default>0</default>
+            <min>0</min>
+            <max>200</max>
+        </entry>
+
+        <entry name="textOpacity" type="Double">
+            <label>Opacity of labels and values</label>
+            <default>1.0</default>
+            <min>0.0</min>
+            <max>1.0</max>
+        </entry>
+
+        <entry name="trackOpacity" type="Double">
+            <label>Opacity of the background track of each ring</label>
+            <default>0.15</default>
+            <min>0.0</min>
+            <max>1.0</max>
+        </entry>
+
+        <entry name="arcOpacity" type="Double">
+            <label>Opacity of the active arc of each ring</label>
+            <default>1.0</default>
+            <min>0.0</min>
+            <max>1.0</max>
+        </entry>
+
+        <entry name="colorTheme" type="String">
+            <label>Predefined color theme id, or "custom" for user-picked colors</label>
+            <default>system</default>
+        </entry>
+
+        <entry name="colorMode" type="String">
+            <label>How the theme's light/dark variant is chosen: "auto" (follow system), "light", or "dark"</label>
+            <default>auto</default>
+        </entry>
+
+        <entry name="customColorLight" type="Color">
+            <label>Ring color used in light Plasma color schemes when colorTheme=custom</label>
+            <default>#3daee9</default>
+        </entry>
+
+        <entry name="customColorDark" type="Color">
+            <label>Ring color used in dark Plasma color schemes when colorTheme=custom</label>
+            <default>#3daee9</default>
+        </entry>
+
+        <entry name="textColorMode" type="String">
+            <label>How the label/value text color is picked: "system" (follow Kirigami theme) or "custom"</label>
+            <default>system</default>
+        </entry>
+
+        <entry name="customTextColorLight" type="Color">
+            <label>Text color used in light color schemes when textColorMode=custom</label>
+            <default>#232629</default>
+        </entry>
+
+        <entry name="customTextColorDark" type="Color">
+            <label>Text color used in dark color schemes when textColorMode=custom</label>
+            <default>#fcfcfc</default>
+        </entry>
+
+        <entry name="tempUnit" type="String">
+            <label>Temperature display unit: "auto" (follow system), "celsius", or "fahrenheit"</label>
+            <default>auto</default>
+        </entry>
+
+        <entry name="checkForUpdatesEnabled" type="Bool">
+            <label>Periodically check the project's GitHub Releases page for a newer version</label>
+            <default>true</default>
+        </entry>
+
+        <entry name="lastUpdateCheck" type="Int64">
+            <label>Unix timestamp (ms) of the last successful update check; 0 = never</label>
+            <default>0</default>
+        </entry>
+
+        <entry name="latestKnownVersion" type="String">
+            <label>Latest version returned by the last successful update check (cached between widget restarts)</label>
+            <default></default>
+        </entry>
+
+        <entry name="acknowledgedVersion" type="String">
+            <label>Version the user has clicked "Got it" on; the badge stays hidden until a newer version appears</label>
+            <default></default>
+        </entry>
+    </group>
+</kcfg>

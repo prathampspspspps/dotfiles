@@ -1,0 +1,48 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "adolfo@librepixels.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "Category": "",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Description": "theme that imitates the appearance of macos sonoma and later versions",
+        "Id": "Apple-Sonoma-Dark",
+        "License": "GPLv3+",
+        "Name": "Apple-Sonoma-Dark",
+        "Website": "https://store.kde.org/p/1886187"
+        },
+        "X-KPackage-Dependencies": [
+        "kns://plasmoids.knsrc/api.kde-look.org/2130967",
+        "kns://colorschemes.knsrc/api.kde-look.org/1408712",
+        "kns://colorschemes.knsrc/api.kde-look.org/1870462",
+        "kns://plasma-themes.knsrc/api.kde-look.org/1973335",
+        "kns://plasma-themes.knsrc/api.kde-look.org/1975770",
+        "kns://plasmoids.knsrc/api.kde-look.org/2238525",
+        "kns://lookandfeel.knsrc/api.kde-look.org/2218598",
+        "kns://icons.knsrc/api.kde-look.org/1400021",
+        "kns://plasmoids.knsrc/api.kde-look.org/2175475",
+        "kns://wallpaper.knsrc/api.kde-look.org/2047314",
+        "kns://plasmoids.knsrc/api.kde-look.org/2183258",
+        "kns://plasmoids.knsrc/api.kde-look.org/2137418",
+        "kns://colorschemes.knsrc/api.kde-look.org/2269947",
+        "kns://plasmoids.knsrc/api.kde-look.org/2138251",
+        "kns://plasmoids.knsrc/api.kde-look.org/2139890",
+        "kns://plasmoids.knsrc/api.kde-look.org/2161461",
+        "kns://plasmoids.knsrc/api.kde-look.org/2136636",
+        "kns://plasmoids.knsrc/api.kde-look.org/2136291",
+        "kns://aurorae.knsrc/api.kde-look.org/1408711",
+        "kns://aurorae.knsrc/api.kde-look.org/1409704",
+        "kns://plasmoids.knsrc/api.kde-look.org/2147882",
+        "kns://wallpaper.knsrc/api.kde-look.org/2128990",
+        "kns://plasmoids.knsrc/api.kde-look.org/2238492",
+        "kns://plasmoids.knsrc/api.kde-look.org/2199942",
+        "kns://sddmtheme.knsrc/api.kde-look.org/2137468",
+        "kns://plasmoids.knsrc/api.kde-look.org/2230382"
+         ]
+         }

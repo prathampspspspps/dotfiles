@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "muddyblack",
+                "Email": ""
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Glass system monitor with GPU-rendered charts: CPU, memory, network, ping, disk, GPU, sensors, power and more in one widget, in any order, with a live settings studio. Plasma and Hyprland.",
+        "Icon": "org.muddyblack.glassySystemMonitor",
+        "Id": "org.muddyblack.glassySystemMonitor",
+        "License": "GPL-3.0-or-later",
+        "Name": "Glassy System Monitor",
+        "Version": "2.0.4",
+        "Website": "https://github.com/Muddyblack/kde-glassy-system-monitor"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

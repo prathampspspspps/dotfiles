@@ -1,0 +1,175 @@
+# Vietnamese translation of nori weather in LANGUAGE
+# Copyright (C) 2023
+# This file is distributed under the same license as the Nori.Weather package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nori.Weather\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2230382/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: 2023-05-01 16:59+0700\n"
+"Last-Translator: FPT Software <ngocbt@fsoft.com.vn>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Clear"
+msgstr "Trời trong"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Mainly clear"
+msgstr "Trời trong chủ yếu"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Partly cloudy"
+msgstr "Trời nhiều mây"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Overcast"
+msgstr "Trời u ám"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle light intensity"
+msgstr "Mưa phùn nhẹ"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle moderate intensity"
+msgstr "Mưa phùn vừa"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle dense intensity"
+msgstr "Mưa phùn nặng"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle light intensity"
+msgstr "Mưa phùn đóng băng nhẹ"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle dense intensity"
+msgstr "Mưa phùn đóng băng nặng"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain slight intensity"
+msgstr "Mưa nhẹ"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain moderate intensity"
+msgstr "Mưa vừa"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain heavy intensity"
+msgstr "Mưa lớn"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain light intensity"
+msgstr "Mưa đóng băng nhẹ"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain heavy intensity"
+msgstr "Mưa đóng băng nặng"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall slight intensity"
+msgstr "Tuyết rơi nhẹ"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall moderate intensity"
+msgstr "Tuyết rơi vừa"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall heavy intensity"
+msgstr "Tuyết rơi nặng"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow grains"
+msgstr "Hạt tuyết"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers slight"
+msgstr "Mưa rào nhẹ"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers moderate"
+msgstr "Mưa rào vừa"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers violent"
+msgstr "Mưa rào bạo"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers slight"
+msgstr "Tuyết rơi nhẹ"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers heavy"
+msgstr "Tuyết rơi nặng"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm"
+msgstr "Dông"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with slight hail"
+msgstr "Dông kèm mưa đá nhỏ"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with heavy hail"
+msgstr "Dông kèm mưa đá lớn"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Cloudy"
+msgstr "Có mây"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle"
+msgstr "Mưa phùn"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain"
+msgstr "Mưa"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow"
+msgstr "Tuyết"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Showers"
+msgstr "Mưa rào"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Storm"
+msgstr "Bão"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Monday"
+msgstr "Thứ Hai"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Tuesday"
+msgstr "Thứ Ba"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Wednesday"
+msgstr "Thứ Tư"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Thursday"
+msgstr "Thứ Năm"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Friday"
+msgstr "Thứ Sáu"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Saturday"
+msgstr "Thứ Bảy"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Sunday"
+msgstr "Chủ Nhật"

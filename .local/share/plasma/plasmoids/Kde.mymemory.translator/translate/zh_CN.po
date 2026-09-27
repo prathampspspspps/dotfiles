@@ -1,0 +1,125 @@
+# Translation of Kde.mymemory.translator in Chinese (Simplified)
+# Copyright (C) 2023
+# This file is distributed under the same license as the Kde.mymemory.translator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kde.mymemory.translator\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2272210/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: 2025-07-13 00:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese (Simplified) <zh@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "English"
+msgstr "英语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Chinese (Mandarin)"
+msgstr "中文（普通话）"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Russian"
+msgstr "俄语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Hindi"
+msgstr "印地语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "German"
+msgstr "德语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Dutch"
+msgstr "荷兰语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Japanese"
+msgstr "日语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "French"
+msgstr "法语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Italian"
+msgstr "意大利语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Korean"
+msgstr "韩语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Arabic"
+msgstr "阿拉伯语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Turkish"
+msgstr "土耳其语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Polish"
+msgstr "波兰语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Swedish"
+msgstr "瑞典语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Danish"
+msgstr "丹麦语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Norwegian"
+msgstr "挪威语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Finnish"
+msgstr "芬兰语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Greek"
+msgstr "希腊语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Czech"
+msgstr "捷克语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Hungarian"
+msgstr "匈牙利语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Romanian"
+msgstr "罗马尼亚语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Bulgarian"
+msgstr "保加利亚语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Indonesian"
+msgstr "印尼语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Vietnamese"
+msgstr "越南语"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Enter the text you wish to translate"
+msgstr "请输入您想要翻译的文本"

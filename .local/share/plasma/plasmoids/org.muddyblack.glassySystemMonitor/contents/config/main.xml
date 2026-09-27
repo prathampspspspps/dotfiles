@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <!-- Sections shown, in order: cpu,memory,network,ping,disk,gpu,sensors,power,system,storage,processes,load,fans,services,containers,custom.
+             Empty falls back to the single legacy activeSection below. -->
+        <entry name="sections" type="String">
+            <default></default>
+        </entry>
+        <!-- Columns the sections flow into; sections listed in sectionSpans take a full row. -->
+        <entry name="layoutColumns" type="Int">
+            <default>1</default>
+        </entry>
+        <entry name="sectionSpans" type="String">
+            <default></default>
+        </entry>
+        <!-- Per-section size: s, m or l, e.g. "cpu:l,memory:s". -->
+        <entry name="sectionSizes" type="String">
+            <default></default>
+        </entry>
+        <!-- Saved looks, a JSON list of { id, name, settings }. -->
+        <entry name="userPresets" type="String">
+            <default></default>
+        </entry>
+        <!-- Per-section chart style overrides, e.g. "memory:donut,cpu:line". -->
+        <entry name="sectionStyles" type="String">
+            <default></default>
+        </entry>
+        <!-- Chart renderer: "gpu" (fragment shader) or "canvas" (the pre-shader renderer). -->
+        <entry name="chartRenderer" type="String">
+            <default>gpu</default>
+        </entry>
+        <!-- Legacy single section (0=Ping, 1=Network, 2=CPU, 3=Memory, 4=Custom, 5=Disk, 6=GPU, 7=Sensors, 8=System, 9=Power) -->
+        <entry name="activeSection" type="Int">
+            <default>2</default>
+        </entry>
+        <entry name="showCpuCores" type="Bool">
+            <default>false</default>
+        </entry>
+
+        <!-- Ping targets (comma-separated) -->
+        <entry name="targets" type="String">
+            <default>8.8.8.8,1.1.1.1,192.168.1.1</default>
+        </entry>
+        <entry name="currentTargetIndex" type="Int">
+            <default>0</default>
+        </entry>
+
+        <!-- Ping behaviour -->
+        <entry name="pingInterval" type="Int">
+            <default>2</default>
+        </entry>
+        <entry name="pingTimeout" type="Int">
+            <default>2</default>
+        </entry>
+        <entry name="historySize" type="Int">
+            <default>60</default>
+        </entry>
+
+        <!-- Base polling interval in MILLISECONDS. CPU/Network/Disk poll at this
+             rate; Memory/GPU at 2×; Network info at 8×; Hardware Sensors at 3×;
+             Power at 5×; OS Info at 30×. Higher = less CPU.
+             Floored at 250 ms in main.qml: every tick forks a shell through the
+             executable engine, so sub-250 ms costs far more in process spawns
+             than it gains in resolution. -->
+        <!-- Base update period in ms. The ksystemstats daemon ticks every 500 ms,
+             so that is the floor: below it the same frames just get relabelled. -->
+        <entry name="updateInterval" type="Int">
+            <default>1000</default>
+        </entry>
+
+        <!-- Alert thresholds -->
+        <entry name="latencyThreshold" type="Int">
+            <default>100</default>
+        </entry>
+        <entry name="lossThreshold" type="Int">
+            <default>5</default>
+        </entry>
+        <entry name="jitterThreshold" type="Int">
+            <default>20</default>
+        </entry>
+        <!-- Pulsing border while the ping section is in alert. Worth turning
+             off when latency sits near the threshold, since the alert state
+             then flips almost every tick and the border strobes. -->
+        <entry name="pingAlertPulse" type="Bool">
+            <default>true</default>
+        </entry>
+        <!-- When false the ping graph always uses pingColor and never
+             recolours itself from the latency thresholds. -->
+        <entry name="pingThresholdColors" type="Bool">
+            <default>true</default>
+        </entry>
+
+        <!-- Network interface -->
+        <entry name="networkInterface" type="String">
+            <default>auto</default>
+        </entry>
+
+        <!-- Appearance -->
+        <entry name="useSystemAccent" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="customColor" type="String">
+            <default>#39ff14</default>
+        </entry>
+
+        <!-- Per-section colors -->
+        <entry name="pingColor" type="String">
+            <default>#39ff14</default>
+        </entry>
+        <entry name="pingWarnColor" type="String">
+            <default>#ffaa22</default>
+        </entry>
+        <entry name="pingCritColor" type="String">
+            <default>#ff4444</default>
+        </entry>
+        <entry name="dlColor" type="String">
+            <default>#22aaff</default>
+        </entry>
+        <entry name="ulColor" type="String">
+            <default>#ff9933</default>
+        </entry>
+        <entry name="cpuColor" type="String">
+            <default>#44ddaa</default>
+        </entry>
+        <entry name="memColor" type="String">
+            <default>#aa66ff</default>
+        </entry>
+        <entry name="swapColor" type="String">
+            <default>#ff6688</default>
+        </entry>
+
+        <!-- Per-core colors (16 cores max, comma-separated stored as one string) -->
+        <entry name="coreColorsStr" type="String">
+            <default>#ff4466,#ff8833,#eebb00,#88dd00,#00ddbb,#22aaff,#9955ff,#ff44bb,#ff7744,#aaff44,#44ffdd,#4499ff,#ffaa44,#ccff44,#44ffcc,#aa44ff</default>
+        </entry>
+
+        <entry name="lineWidth" type="Double">
+            <default>2.2</default>
+        </entry>
+        <entry name="glowLine" type="Bool">
+            <default>true</default>
+        </entry>
+        <!-- Target scroll animation framerate. Higher = smoother but more CPU.
+             30 fps is plenty smooth for a system monitor; 60 fps matches most
+             displays; 120 fps is for high-refresh setups. -->
+        <entry name="targetFps" type="Int">
+            <default>24</default>
+        </entry>
+        <!-- Smooth scroll animation for chart history lines. Disable to cut
+             the per-frame canvas ticker and save CPU when other animated
+             widgets (e.g. an audio visualizer) are also running. -->
+        <entry name="smoothScroll" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="showStats" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="showLegend" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="showYLabels" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="bgColor" type="String">
+            <default>#800d0f1a</default>
+        </entry>
+        <entry name="fontFamily" type="String">
+            <default>system</default>
+        </entry>
+        <entry name="bgRadiusTL" type="Double">
+            <default>12.0</default>
+        </entry>
+        <entry name="bgRadiusTR" type="Double">
+            <default>12.0</default>
+        </entry>
+        <entry name="bgRadiusBR" type="Double">
+            <default>12.0</default>
+        </entry>
+        <entry name="bgRadiusBL" type="Double">
+            <default>12.0</default>
+        </entry>
+        <!-- Card material: tint (classic fill + frost), glass, liquid, solid,
+             atmosphere. Glass blurs the desktop wallpaper behind the card. -->
+        <!-- Colour by load: CPU, RAM and GPU turn amber/red past these levels. -->
+        <entry name="loadColors" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="loadWarn" type="Int">
+            <default>70</default>
+        </entry>
+        <entry name="loadCrit" type="Int">
+            <default>90</default>
+        </entry>
+        <entry name="loadWarnColor" type="String">
+            <default>#ffaa22</default>
+        </entry>
+        <entry name="loadCritColor" type="String">
+            <default>#ff4444</default>
+        </entry>
+        <!-- Spacing inside the card: compact, normal, roomy. -->
+        <entry name="density" type="String">
+            <default>normal</default>
+        </entry>
+        <!-- Storage section (df) and top processes (/proc). -->
+        <entry name="storageTitle" type="String">
+            <default></default>
+        </entry>
+        <entry name="storageMounts" type="String">
+            <default></default>
+        </entry>
+        <entry name="storageColor" type="String">
+            <default>#44ddaa</default>
+        </entry>
+        <entry name="processesTitle" type="String">
+            <default></default>
+        </entry>
+        <entry name="processSort" type="String">
+            <default>cpu</default>
+        </entry>
+        <entry name="processCount" type="Int">
+            <default>5</default>
+        </entry>
+        <entry name="processGroup" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="processColor" type="String">
+            <default>#4aa8ff</default>
+        </entry>
+        <!-- Load average and uptime (/proc/loadavg). -->
+        <entry name="loadTitle" type="String">
+            <default>Load</default>
+        </entry>
+        <entry name="loadColor" type="String">
+            <default>#ffb347</default>
+        </entry>
+        <!-- Fans (lm-sensors). -->
+        <entry name="fansTitle" type="String">
+            <default>Fans</default>
+        </entry>
+        <entry name="fanColor" type="String">
+            <default>#66ccff</default>
+        </entry>
+        <!-- systemd: failed units, plus the units listed here ("sshd, docker, user:syncthing"). -->
+        <entry name="servicesTitle" type="String">
+            <default>Services</default>
+        </entry>
+        <entry name="serviceColor" type="String">
+            <default>#44dd88</default>
+        </entry>
+        <entry name="serviceUnits" type="String">
+            <default></default>
+        </entry>
+        <!-- Containers: "all", "containers" (Docker/Podman) or "kubernetes"; empty namespace = all. -->
+        <entry name="containersTitle" type="String">
+            <default>Containers</default>
+        </entry>
+        <entry name="containerColor" type="String">
+            <default>#2496ed</default>
+        </entry>
+        <entry name="containerSource" type="String">
+            <default>all</default>
+        </entry>
+        <entry name="kubeNamespace" type="String">
+            <default></default>
+        </entry>
+        <entry name="containerShowStopped" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="containerSort" type="String">
+            <default>cpu</default>
+        </entry>
+        <entry name="containerCount" type="Int">
+            <default>8</default>
+        </entry>
+        <!-- Power section: chart tab (power, battery, temp) and what shows below it. -->
+        <entry name="powerChart" type="String">
+            <default>power</default>
+        </entry>
+        <entry name="powerShowProfiles" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="powerShowSources" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="powerShowPressure" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="powerColor" type="String">
+            <default>#88ddff</default>
+        </entry>
+        <entry name="powerLoadColor" type="String">
+            <default>#ffaa22</default>
+        </entry>
+        <!-- Panel pill as a tray: one section at a time, turning every panelCycleSeconds; icons instead of captions. -->
+        <entry name="panelCycle" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="panelCycleSeconds" type="Int">
+            <default>4</default>
+        </entry>
+        <entry name="panelIcons" type="Bool">
+            <default>false</default>
+        </entry>
+        <!-- Read another machine over SSH ("user@host" or an ssh config alias); empty = this one. -->
+        <entry name="remoteHost" type="String">
+            <default></default>
+        </entry>
+        <entry name="surfaceStyle" type="String">
+            <default>tint</default>
+        </entry>
+        <entry name="glassTint" type="String">
+            <default>clear</default>
+        </entry>
+        <entry name="glassTintColor" type="String">
+            <default>#3daee9</default>
+        </entry>
+        <entry name="glassBlur" type="Double">
+            <default>0.85</default>
+        </entry>
+        <entry name="glassRefraction" type="Double">
+            <default>0.5</default>
+        </entry>
+        <entry name="glassSpecular" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="compositorGlass" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="cardOpacity" type="Double">
+            <default>1.0</default>
+        </entry>
+        <entry name="cardShadow" type="String">
+            <default>none</default>
+        </entry>
+        <entry name="grain" type="Bool">
+            <default>false</default>
+        </entry>
+        <!-- Frosted-glass card: composite the card fill + tint through a GPU
+             MultiEffect blur instead of a flat translucent fill, for a soft
+             premium frost. Self-content blur (Plasma exposes no backdrop-blur
+             API to QML), so it frosts the card's own fill/highlight, not the
+             desktop behind it. Off = the flat card. -->
+        <entry name="frostedGlass" type="Bool">
+            <default>true</default>
+        </entry>
+        <!-- How strongly the frosted card is blurred (0 = crisp, 1 = heavy). -->
+        <entry name="frostStrength" type="Double">
+            <default>0.55</default>
+        </entry>
+        <!-- Hairline border + 1px top highlight around the card — the edge that
+             reads as "glass". Off = the flat borderless card. -->
+        <entry name="cardBorder" type="Bool">
+            <default>true</default>
+        </entry>
+        <!-- GPU bloom for chart glow: render the glow halo with a MultiEffect
+             blur pass on the GPU instead of per-stroke Context2D shadowBlur on
+             the CPU. Prettier halo, far cheaper on plasmashell. When on, the
+             canvas glow stroke is skipped (the bloom replaces it). -->
+        <entry name="gpuBloom" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="bloomStrength" type="Double">
+            <default>0.6</default>
+        </entry>
+        <entry name="showGridLines" type="Bool">
+            <default>false</default>
+        </entry>
+        <!-- Use a MaxMind GeoIP database (auto-detected from Portmaster if
+             present) for accurate per-connection country flags. Falls back to
+             a hostname heuristic when no readable DB / mmdblookup is found. -->
+        <entry name="accurateGeo" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="autoYRange" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="chartType" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="smoothLines" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="disabledCoresStr" type="String">
+            <default></default>
+        </entry>
+        <entry name="disabledLinesStr" type="String">
+            <default></default>
+        </entry>
+        <entry name="useSystemTextColor" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="customTextColor" type="String">
+            <default>#ffffff</default>
+        </entry>
+        <entry name="pingTitle" type="String">
+            <default>Ping</default>
+        </entry>
+        <entry name="networkTitle" type="String">
+            <default>Network</default>
+        </entry>
+        <entry name="cpuTitle" type="String">
+            <default>CPU</default>
+        </entry>
+        <entry name="memoryTitle" type="String">
+            <default>Memory</default>
+        </entry>
+        <!-- Custom Command Sensor -->
+        <entry name="customCmd" type="String">
+            <default>cat /proc/loadavg | awk '{print $1}'</default>
+        </entry>
+        <entry name="customCmdTitle" type="String">
+            <default>Load Average</default>
+        </entry>
+        <entry name="customCmdUnit" type="String">
+            <default></default>
+        </entry>
+        <entry name="customCmdMax" type="Int">
+            <default>4</default>
+        </entry>
+        <entry name="customCmdInterval" type="Int">
+            <default>2</default>
+        </entry>
+        <entry name="customCmdColor" type="String">
+            <default>#ffaa00</default>
+        </entry>
+        <!-- GPU -->
+        <entry name="gpuTitle" type="String">
+            <default>GPU</default>
+        </entry>
+        <entry name="gpuColor" type="String">
+            <default>#ff6e40</default>
+        </entry>
+        <entry name="gpuShowEngines" type="Bool">
+            <default>true</default>
+        </entry>
+        <!-- PCI address of the GPU to monitor ("0000:03:00.0"), or "auto".
+             Stored as the PCI address rather than the card index, because
+             /sys/class/drm/cardN numbering is not stable across reboots. -->
+        <entry name="gpuDevice" type="String">
+            <default>auto</default>
+        </entry>
+        <entry name="netShowInfo" type="Bool">
+            <default>false</default>
+        </entry>
+
+        <!-- Panel / compact mode -->
+        <entry name="panelMode" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="panelShowSessionTotals" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="panelPlainText" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="panelShowBg" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="panelSections" type="String">
+            <default></default>
+        </entry>
+        <entry name="panelStyle" type="String">
+            <default>values</default>
+        </entry>
+        <entry name="panelHoverCard" type="Bool">
+            <default>true</default>
+        </entry>
+
+        <!-- Disk I/O -->
+        <entry name="diskTitle" type="String">
+            <default>Disk I/O</default>
+        </entry>
+        <entry name="diskDevice" type="String">
+            <default>auto</default>
+        </entry>
+        <entry name="diskRdColor" type="String">
+            <default>#22ddff</default>
+        </entry>
+        <entry name="diskWrColor" type="String">
+            <default>#ffaa22</default>
+        </entry>
+
+        <!-- Hardware Sensors -->
+        <entry name="hwSensorsTitle" type="String">
+            <default>Hardware Sensors</default>
+        </entry>
+        <entry name="hwTempWarn" type="Int">
+            <default>75</default>
+        </entry>
+        <entry name="hwTempCrit" type="Int">
+            <default>90</default>
+        </entry>
+
+        <!-- OS Info -->
+        <entry name="osInfoTitle" type="String">
+            <default>System Info</default>
+        </entry>
+        <!-- When on, the section is populated by a system "fetch" tool
+             (fastfetch, neofetch, screenfetch …) if one is installed, giving far
+             more rows than the built-in reader. Falls back to the built-in
+             OS/Kernel/Host/Uptime reader when no tool is found. -->
+        <entry name="osUseFetch" type="Bool">
+            <default>true</default>
+        </entry>
+        <!-- Overrides auto-detection. Must print "Key: Value" lines on stdout.
+             Ignored if its binary is not on PATH, in which case auto-detection
+             takes over again. -->
+        <entry name="osFetchCmd" type="String">
+            <default></default>
+        </entry>
+        <!-- Render the tool output verbatim in a monospace block instead of
+             parsing it into label/value rows. -->
+        <entry name="osPlainText" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="osShowLogo" type="Bool">
+            <default>true</default>
+        </entry>
+        <!-- Ordered field rules for the fetch output. Each item is a key, or
+             "!key" when hidden. Keys absent from this list default to visible
+             and are appended in the tool's own order, so fields added by a tool
+             update appear rather than being silently dropped. -->
+        <entry name="osFieldRules" type="StringList">
+            <default></default>
+        </entry>
+
+        <!-- Power & Pressure -->
+        <entry name="powerTitle" type="String">
+            <default>Power</default>
+        </entry>
+    </group>
+</kcfg>

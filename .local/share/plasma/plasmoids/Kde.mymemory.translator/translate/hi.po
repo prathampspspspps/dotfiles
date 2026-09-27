@@ -1,0 +1,107 @@
+#: ../contents/ui/FullRepresentation.qml
+msgid "English"
+msgstr "अंग्रेज़ी"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Spanish"
+msgstr "स्पेनिश"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Chinese (Mandarin)"
+msgstr "चीनी (मंदारिन)"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Portuguese"
+msgstr "पुर्तगाली"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Russian"
+msgstr "रूसी"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Hindi"
+msgstr "हिंदी"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "German"
+msgstr "जर्मन"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Dutch"
+msgstr "डच"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Japanese"
+msgstr "जापानी"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "French"
+msgstr "फ़्रेंच"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Italian"
+msgstr "इतालवी"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Korean"
+msgstr "कोरियाई"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Arabic"
+msgstr "अरबी"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Turkish"
+msgstr "तुर्की"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Polish"
+msgstr "पोलिश"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Swedish"
+msgstr "स्वीडिश"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Danish"
+msgstr "डेनिश"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Norwegian"
+msgstr "नॉर्वेजियन"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Finnish"
+msgstr "फ़िनिश"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Greek"
+msgstr "यूनानी"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Czech"
+msgstr "चेक"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Hungarian"
+msgstr "हंगेरियन"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Romanian"
+msgstr "रोमेनियन"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Bulgarian"
+msgstr "बुल्गारियाई"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Indonesian"
+msgstr "इंडोनेशियाई"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Vietnamese"
+msgstr "वियतनामी"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Enter the text you wish to translate"
+msgstr "जिस पाठ का अनुवाद करना चाहते हैं, उसे दर्ज करें"

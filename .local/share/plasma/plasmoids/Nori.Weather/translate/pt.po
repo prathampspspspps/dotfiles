@@ -1,0 +1,175 @@
+# Translation of nori weather in Portuguese
+# Copyright (C) 2023
+# This file is distributed under the same license as the Nori.Weather package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nori.Weather\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2230382/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Portuguese <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Clear"
+msgstr "Céu limpo"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Mainly clear"
+msgstr "Predominantemente limpo"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Partly cloudy"
+msgstr "Parcialmente nublado"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Overcast"
+msgstr "Encoberto"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle light intensity"
+msgstr "Garoa de baixa intensidade"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle moderate intensity"
+msgstr "Garoa de intensidade moderada"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle dense intensity"
+msgstr "Garoa de alta intensidade"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle light intensity"
+msgstr "Garoa congelante de baixa intensidade"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle dense intensity"
+msgstr "Garoa congelante de alta intensidade"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain slight intensity"
+msgstr "Chuva leve"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain moderate intensity"
+msgstr "Chuva moderada"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain heavy intensity"
+msgstr "Chuva forte"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain light intensity"
+msgstr "Chuva congelante leve"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain heavy intensity"
+msgstr "Chuva congelante forte"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall slight intensity"
+msgstr "Neve de baixa intensidade"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall moderate intensity"
+msgstr "Neve de intensidade moderada"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall heavy intensity"
+msgstr "Neve de alta intensidade"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow grains"
+msgstr "Grãos de neve"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers slight"
+msgstr "Aguaceiros leves"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers moderate"
+msgstr "Aguaceiros moderados"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers violent"
+msgstr "Aguaceiros violentos"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers slight"
+msgstr "Aguaceiros de neve leves"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers heavy"
+msgstr "Aguaceiros de neve intensos"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm"
+msgstr "Trovoada"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with slight hail"
+msgstr "Trovoada com granizo leve"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with heavy hail"
+msgstr "Trovoada com granizo forte"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Cloudy"
+msgstr "Nublado"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle"
+msgstr "Garoa"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain"
+msgstr "Chuva"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow"
+msgstr "Neve"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Showers"
+msgstr "Aguaceiros"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Storm"
+msgstr "Tempestade"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Monday"
+msgstr "Segunda-feira"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Friday"
+msgstr "Sexta-feira"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Saturday"
+msgstr "Sábado"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Sunday"
+msgstr "Domingo"

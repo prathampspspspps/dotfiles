@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="device" type="String">
+            <default></default>
+        </entry>
+        <entry name="barColor" type="Color">
+            <default>#3daee9</default>
+        </entry>
+        <entry name="barCount" type="Int">
+            <default>32</default>
+        </entry>
+        <entry name="barGap" type="Int">
+            <default>1</default>
+        </entry>
+        <entry name="sensitivityPct" type="Int">
+            <default>100</default>
+        </entry>
+        <entry name="smoothingPct" type="Int">
+            <default>75</default>
+        </entry>
+        <entry name="widgetWidth" type="Int">
+            <default>220</default>
+        </entry>
+        <entry name="gradientTopColor" type="Color">
+            <default>#ff5555</default>
+        </entry>
+        <!-- 0 = none, 1 = vertical, 2 = horizontal, 3 = center (middle → sides) -->
+        <entry name="gradientDirection" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="theme" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="barRadius" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="sidePadding" type="Int">
+            <default>6</default>
+        </entry>
+        <!-- Default-theme: render a blurred reflection of the bars below the
+             baseline. Available on theme 0 only. -->
+        <entry name="reflection" type="Bool">
+            <default>false</default>
+        </entry>
+        <!-- Reflection band height as a percentage of total height.
+             The upright bars take the rest. -->
+        <entry name="reflectionRatio" type="Int">
+            <default>25</default>
+        </entry>
+        <!-- Blur radius applied to the reflection. -->
+        <entry name="reflectionBlur" type="Int">
+            <default>6</default>
+        </entry>
+        <!-- Theme 3 (Line): stroke width of the curve. -->
+        <entry name="lineWidth" type="Int">
+            <default>2</default>
+        </entry>
+        <!-- Theme 3 (Line): leave a fading trail behind the line, like
+             a CRT oscilloscope's phosphor persistence. -->
+        <entry name="lineGlow" type="Bool">
+            <default>false</default>
+        </entry>
+        <!-- Bar themes (Default + Centered): float a thin cap at each bar's
+             recent peak, falling slowly so spikes stay visible. -->
+        <entry name="peakCaps" type="Bool">
+            <default>false</default>
+        </entry>
+        <!-- Bar themes: 0 = solid, 1 = segmented (vintage VU-meter style). -->
+        <entry name="barStyle" type="Int">
+            <default>0</default>
+        </entry>
+    </group>
+</kcfg>

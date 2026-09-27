@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Apple-Ventura
+X-KDE-PluginInfo-Author=zayronxio
+X-KDE-PluginInfo-Email=adolfo@librepixels.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPL3.0
+X-KDE-PluginInfo-Name=Apple-Ventura
+X-KDE-PluginInfo-Version=2.0.5
+X-KDE-PluginInfo-Website=https://store.kde.org/p/1973335
+
+[BlurBehindEffect]
+enabled=true
+

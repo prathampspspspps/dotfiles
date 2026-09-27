@@ -1,0 +1,173 @@
+# Translation of nori weather in Dutch
+# Copyright (C) 2023
+# This file is distributed under the same license as the Nori.Weather package.
+# Adolfo Silerio <adolfo@librepixels.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Nori.Weather\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2230382/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: 2025-06-16 16:00-0600\n"
+"Last-Translator: Adolfo Silerio <adolfo@librepixels.com>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Clear"
+msgstr "Helder"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Mainly clear"
+msgstr "Overwegend helder"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Partly cloudy"
+msgstr "Gedeeltelijk bewolkt"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Overcast"
+msgstr "Zwaar bewolkt"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle light intensity"
+msgstr "Lichte motregen"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle moderate intensity"
+msgstr "Matige motregen"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle dense intensity"
+msgstr "Zware motregen"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle light intensity"
+msgstr "Lichte onderkoelde motregen"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle dense intensity"
+msgstr "Zware onderkoelde motregen"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain slight intensity"
+msgstr "Lichte regen"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain moderate intensity"
+msgstr "Matige regen"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain heavy intensity"
+msgstr "Zware regen"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain light intensity"
+msgstr "Lichte ijzel"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain heavy intensity"
+msgstr "Zware ijzel"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall slight intensity"
+msgstr "Lichte sneeuwval"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall moderate intensity"
+msgstr "Matige sneeuwval"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall heavy intensity"
+msgstr "Zware sneeuwval"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow grains"
+msgstr "Sneeuwkorrels"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers slight"
+msgstr "Lichte regenbuien"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers moderate"
+msgstr "Matige regenbuien"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers violent"
+msgstr "Hevige regenbuien"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers slight"
+msgstr "Lichte sneeuwbuien"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers heavy"
+msgstr "Zware sneeuwbuien"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm"
+msgstr "Onweersbui"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with slight hail"
+msgstr "Onweer met lichte hagel"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with heavy hail"
+msgstr "Onweer met zware hagel"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Cloudy"
+msgstr "Bewolkt"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle"
+msgstr "Motregen"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain"
+msgstr "Regen"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow"
+msgstr "Sneeuw"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Showers"
+msgstr "Buien"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Storm"
+msgstr "Storm"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Monday"
+msgstr "Maandag"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Sunday"
+msgstr "Zondag"

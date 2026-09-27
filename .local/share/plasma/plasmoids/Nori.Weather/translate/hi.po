@@ -1,0 +1,173 @@
+# Translation of nori weather in Hindi
+# Copyright (C) 2023
+# This file is distributed under the same license as the  Nori.Weather package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Nori.Weather\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2230382/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Hindi <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Clear"
+msgstr "साफ़"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Mainly clear"
+msgstr "मुख्यतः साफ़"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Partly cloudy"
+msgstr "आंशिक रूप से बादल"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Overcast"
+msgstr "घने बादल"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle light intensity"
+msgstr "हल्की बूंदाबांदी"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle moderate intensity"
+msgstr "मध्यम बूंदाबांदी"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle dense intensity"
+msgstr "तेज बूंदाबांदी"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle light intensity"
+msgstr "हल्की जमने वाली बूंदाबांदी"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle dense intensity"
+msgstr "तेज जमने वाली बूंदाबांदी"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain slight intensity"
+msgstr "हल्की बारिश"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain moderate intensity"
+msgstr "मध्यम बारिश"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain heavy intensity"
+msgstr "तेज़ बारिश"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain light intensity"
+msgstr "हल्की जमने वाली बारिश"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain heavy intensity"
+msgstr "तेज़ जमने वाली बारिश"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall slight intensity"
+msgstr "हल्का हिमपात"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall moderate intensity"
+msgstr "मध्यम हिमपात"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall heavy intensity"
+msgstr "तेज़ हिमपात"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow grains"
+msgstr "बर्फ़ के कण"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers slight"
+msgstr "हल्की बारिश की बौछारें"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers moderate"
+msgstr "मध्यम बारिश की बौछारें"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers violent"
+msgstr "तेज़ बारिश की बौछारें"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers slight"
+msgstr "हल्की बर्फ़बारी की बौछारें"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers heavy"
+msgstr "तेज़ बर्फ़बारी की बौछारें"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm"
+msgstr "आंधी-तूफ़ान"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with slight hail"
+msgstr "हल्की ओलावृष्टि के साथ आंधी"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with heavy hail"
+msgstr "तेज़ ओलावृष्टि के साथ आंधी"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Cloudy"
+msgstr "बादल"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle"
+msgstr "बूंदाबांदी"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain"
+msgstr "बारिश"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow"
+msgstr "बर्फ़"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Showers"
+msgstr "बौछारें"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Storm"
+msgstr "तूफ़ान"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Monday"
+msgstr "सोमवार"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Tuesday"
+msgstr "मंगलवार"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Wednesday"
+msgstr "बुधवार"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Thursday"
+msgstr "गुरुवार"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Friday"
+msgstr "शुक्रवार"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Saturday"
+msgstr "शनिवार"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Sunday"
+msgstr "रविवार"

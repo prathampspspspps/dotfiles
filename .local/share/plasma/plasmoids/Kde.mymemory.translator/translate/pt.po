@@ -1,0 +1,125 @@
+# Translation of Kde.mymemory.translator in Portuguese
+# Copyright (C) 2023
+# This file is distributed under the same license as the Kde.mymemory.translator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kde.mymemory.translator\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2272210/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Portuguese <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "English"
+msgstr "Inglês"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Spanish"
+msgstr "Espanhol"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Chinese (Mandarin)"
+msgstr "Chinês (Mandarim)"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Portuguese"
+msgstr "Português"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Russian"
+msgstr "Russo"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Hindi"
+msgstr "Hindi"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "German"
+msgstr "Alemão"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Dutch"
+msgstr "Holandês"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Japanese"
+msgstr "Japonês"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "French"
+msgstr "Francês"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Italian"
+msgstr "Italiano"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Korean"
+msgstr "Coreano"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Arabic"
+msgstr "Árabe"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Turkish"
+msgstr "Turco"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Polish"
+msgstr "Polonês"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Swedish"
+msgstr "Sueco"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Danish"
+msgstr "Dinamarquês"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Norwegian"
+msgstr "Norueguês"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Finnish"
+msgstr "Finlandês"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Greek"
+msgstr "Grego"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Czech"
+msgstr "Tcheco"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Hungarian"
+msgstr "Húngaro"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Romanian"
+msgstr "Romeno"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Bulgarian"
+msgstr "Búlgaro"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Indonesian"
+msgstr "Indonésio"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#: ../contents/ui/FullRepresentation.qml
+msgid "Enter the text you wish to translate"
+msgstr "Digite o texto que deseja traduzir"

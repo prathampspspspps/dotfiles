@@ -1,0 +1,175 @@
+# Translation of nori weather into Turkish
+# Copyright (C) 2023
+# This file is distributed under the same license as the  Nori.Weather package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nori.Weather\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2230382/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: 2025-08-03 00:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Clear"
+msgstr "Açık hava"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Mainly clear"
+msgstr "Genellikle açık"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Partly cloudy"
+msgstr "Parçalı bulutlu"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Overcast"
+msgstr "Kapalı"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle light intensity"
+msgstr "Hafif çiseleme"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle moderate intensity"
+msgstr "Orta şiddette çiseleme"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle dense intensity"
+msgstr "Yoğun çiseleme"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle light intensity"
+msgstr "Hafif donan çiseleme"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle dense intensity"
+msgstr "Yoğun donan çiseleme"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain slight intensity"
+msgstr "Hafif yağmur"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain moderate intensity"
+msgstr "Orta şiddette yağmur"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain heavy intensity"
+msgstr "Şiddetli yağmur"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain light intensity"
+msgstr "Hafif donan yağmur"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain heavy intensity"
+msgstr "Şiddetli donan yağmur"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall slight intensity"
+msgstr "Hafif kar yağışı"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall moderate intensity"
+msgstr "Orta şiddette kar yağışı"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall heavy intensity"
+msgstr "Yoğun kar yağışı"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow grains"
+msgstr "Kar taneleri"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers slight"
+msgstr "Hafif sağanak yağmur"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers moderate"
+msgstr "Orta şiddette sağanak yağmur"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers violent"
+msgstr "Şiddetli sağanak yağmur"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers slight"
+msgstr "Hafif kar sağanağı"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers heavy"
+msgstr "Yoğun kar sağanağı"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm"
+msgstr "Gök gürültülü fırtına"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with slight hail"
+msgstr "Hafif dolu ile gök gürültülü fırtına"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with heavy hail"
+msgstr "Yoğun dolu ile gök gürültülü fırtına"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Cloudy"
+msgstr "Bulutlu"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle"
+msgstr "Çiseleme"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain"
+msgstr "Yağmur"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow"
+msgstr "Kar"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Showers"
+msgstr "Sağanak"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Storm"
+msgstr "Fırtına"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Tuesday"
+msgstr "Salı"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Friday"
+msgstr "Cuma"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Sunday"
+msgstr "Pazar"
+

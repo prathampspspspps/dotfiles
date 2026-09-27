@@ -1,0 +1,175 @@
+# Translation of nori weather in Bengali
+# Copyright (C) 2023
+# This file is distributed under the same license as the  Nori.Weather package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nori.Weather\n"
+"Report-Msgid-Bugs-To: https://store.kde.org/p/2230382/\n"
+"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Bengali <LL@li.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Clear"
+msgstr "পরিষ্কার"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Mainly clear"
+msgstr "মূলত পরিষ্কার"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Partly cloudy"
+msgstr "আংশিক মেঘলা"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Overcast"
+msgstr "ঘন মেঘলা"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle light intensity"
+msgstr "হালকা ঝিরিঝিরি বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle moderate intensity"
+msgstr "মধ্যম ঝিরিঝিরি বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle dense intensity"
+msgstr "ভারী ঝিরিঝিরি বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle light intensity"
+msgstr "হালকা জমাটবদ্ধ ঝিরিঝিরি বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Drizzle dense intensity"
+msgstr "ভারী জমাটবদ্ধ ঝিরিঝিরি বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain slight intensity"
+msgstr "হালকা বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain moderate intensity"
+msgstr "মধ্যম বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain heavy intensity"
+msgstr "ভারী বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain light intensity"
+msgstr "হালকা জমাটবদ্ধ বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Freezing Rain heavy intensity"
+msgstr "ভারী জমাটবদ্ধ বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall slight intensity"
+msgstr "হালকা তুষারপাত"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall moderate intensity"
+msgstr "মধ্যম তুষারপাত"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snowfall heavy intensity"
+msgstr "ভারী তুষারপাত"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow grains"
+msgstr "তুষার কণা"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers slight"
+msgstr "হালকা বৃষ্টির ঝাপটা"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers moderate"
+msgstr "মধ্যম বৃষ্টির ঝাপটা"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain showers violent"
+msgstr "প্রচণ্ড বৃষ্টির ঝাপটা"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers slight"
+msgstr "হালকা তুষারের ঝাপটা"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow showers heavy"
+msgstr "ভারী তুষারের ঝাপটা"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm"
+msgstr "বজ্রঝড়"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with slight hail"
+msgstr "হালকা শিলসহ বজ্রঝড়"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Thunderstorm with heavy hail"
+msgstr "ভারী শিলসহ বজ্রঝড়"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Cloudy"
+msgstr "মেঘলা"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Drizzle"
+msgstr "ঝিরিঝিরি বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Rain"
+msgstr "বৃষ্টি"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Snow"
+msgstr "তুষারপাত"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Showers"
+msgstr "ঝাপটা"
+
+#: ../contents/ui/components/WeatherData.qml
+msgid "Storm"
+msgstr "ঝড়"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Monday"
+msgstr "সোমবার"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Tuesday"
+msgstr "মঙ্গলবার"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Wednesday"
+msgstr "বুধবার"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Thursday"
+msgstr "বৃহস্পতিবার"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Friday"
+msgstr "শুক্রবার"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Saturday"
+msgstr "শনিবার"
+
+#: ../contents/ui/ItemForecasts.qml
+msgid "Sunday"
+msgstr "রবিবার"
