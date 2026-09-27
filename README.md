@@ -21,3 +21,6 @@ alias config='/usr/bin/git --git-dir=HOME/.cfg/ --work-tree=HOME'
 config checkout
 config config --local status.showUntrackedFiles no
 ```
+
+### 🍦 Minimal Cream Aesthetic Setup
+![Cream Theme Preview](.config/dotfiles-assets/screenshot2.png)
